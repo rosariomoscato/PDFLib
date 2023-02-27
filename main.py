@@ -1,6 +1,6 @@
 import PDFLib
 
-PDFLib.set_debugMode(0)
+PDFLib.set_debugMode(1)
 
 #metadata = PDFLib.get_metadata("Listino_Sviluppi_Stampe.pdf")
 #print(metadata)
@@ -15,7 +15,7 @@ PDFLib.set_debugMode(0)
 #PDFLib.pages_splitter("Listino_Sviluppi_Stampe.pdf")
 
 #help(PDFLib.fromto_splitter)
-#PDFLib.fromto_splitter("MG719_ZS_Brochure_WEB_ITA.pdf",1)
+#PDFLib.fromto_splitter("MG719_ZS_Brochure_WEB_ITA.pdf",1,3)
 
 #help(PDFLib.last_page)
 #PDFLib.last_page("MG719_ZS_Brochure_WEB_ITA.pdf")
@@ -40,4 +40,4 @@ PDFLib.set_debugMode(0)
 #help(PDFLib.img2pdf)
 #PDFLib.img2pdf("Im0.jpg")
 
-PDFLib.info()
+#PDFLib.info()

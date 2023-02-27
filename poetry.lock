@@ -1,0 +1,35 @@
+[[package]]
+name = "pillow"
+version = "9.4.0"
+description = "Python Imaging Library (Fork)"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-inline-tabs", "sphinx-issues (>=3.0.1)", "sphinx-removed-in", "sphinxext-opengraph"]
+tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
+
+[[package]]
+name = "pypdf2"
+version = "3.0.1"
+description = "A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.extras]
+crypto = ["pycryptodome"]
+dev = ["black", "pip-tools", "pre-commit (<2.18.0)", "pytest-cov", "flit", "wheel"]
+docs = ["sphinx", "sphinx-rtd-theme", "myst-parser"]
+full = ["pycryptodome", "pillow"]
+image = ["pillow"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "f27abb449eab444d2d0b093453f6f2bb1248e022175d38acb66668e3c235171a"
+
+[metadata.files]
+pillow = []
+pypdf2 = []
